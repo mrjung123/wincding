@@ -1,0 +1,76 @@
+body {
+  color: rgb(255, 255, 255);
+  background-color: teal;
+  margin: 0em;
+}
+#header {
+  background-color: lightblue;
+  color: midnightblue;
+  margin: 0em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  overflow: hidden;
+  background-color: rgb(108, 86, 231);
+}
+.menu li {
+  float: left;
+}
+.menu li a {
+  display: block;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu li a:hover {
+  background-color: #111;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0;
+}
+a:hover {
+  color: rgb(64, 145, 165);
+  text-decoration: none;
+  margin: 0;
+}
+H1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: royalblue;
+  margin: 1em;
+}
+p {
+  margin: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  text-align: center;
+}
+.black-border {
+  border: 1px solid black;
+  width: 100px;
+  margin: 1em;
+}
+.sidebar {
+  border: 1px solid black;
+  margin: 1em;
+  float: right;
+  width: 200px;
+  background-color: green;
+}
+#footer {
+  font-size: 10px;
+  background-color: lightblue;
+  color: midnightblue;
+  margin: 0em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
