@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> Opdracht 7 Web development Winc academy </title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <!-- hier zet je de code in de body tags-->
+    <header id="header">
+        <h1>Lorem Ipsum</h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>  
+    </nav>
+
+    <main>
+        <h1>Laat hier een bericht achter.</h1>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Uw naam: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Uw E-mail: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Uw functie: <select name="role[]" multiple>
+                <option value="leader">Klant</option>
+                <option value="follower">Leverancier</option>
+              </select></label>
+            </p>
+            <p>
+              <label>Uw bericht: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <input type="hidden" name="form-name" value="contact">
+              <button type="submit">Versturen</button>
+            </p>
+        </form>
+
+    </main>
+    <aside>
+        <p>
+            Praesent vitae arcu lectus. Maecenas nec libero id lacus accumsan elementum.
+        </p>
+    </aside>
+    <footer id="footer">
+        <p><a href="https://www.google.nl/" target="_blank">Google</a></p>
+    </footer>
+</body>
+</html>
