@@ -23,7 +23,7 @@
     <main>
         <h1>Laat hier een bericht achter.</h1>
 
-        <form name="contact" method="POST" data-netlify="true">
+        <form method="post" action="contact.php">
             <p>
               <label>Uw naam: <input type="text" name="name" /></label>   
             </p>
@@ -31,16 +31,12 @@
               <label>Uw E-mail: <input type="email" name="email" /></label>
             </p>
             <p>
-              <label>Uw functie: <select name="role[]" multiple>
-                <option value="leader">Klant</option>
-                <option value="follower">Leverancier</option>
-              </select></label>
+              <label>Uw functie: <input type="text" name="functie" /></label>
             </p>
             <p>
               <label>Uw bericht: <textarea name="message"></textarea></label>
             </p>
             <p>
-                <input type="hidden" name="form-name" value="contact">
               <button type="submit">Versturen</button>
             </p>
         </form>
