@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> Opdracht 7 Web development Winc academy </title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <!-- hier zet je de code in de body tags-->
+    <header id="header">
+        <h1>Lorem Ipsum</h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recepten.html">Recepten</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>  
+    </nav>
+
+    <main>
+        <h1>Laat hier uw recept achter.</h1>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Uw naam: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Uw E-mail: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Telefoon nr. : <input type="tel" name="functie" /></label>
+            </p>
+            <p>
+              <label>favoriete cuisine:</label><br> 
+              <input type="checkbox" name="frans" value="frans">
+              <label for="vehicle1"> Frans</label><br>
+              <input type="checkbox"  name="italiaans" value="italiaans">
+              <label for="vehicle2"> Italiaans</label><br>
+              <input type="checkbox" name="spaans" value="spaans">
+              <label for="vehicle3"> Spaans</label><br>
+              <input type="checkbox" name="arabisch" value="arabisch">
+              <label for="vehicle3"> Arabisch</label>              
+            </p>
+            <p>
+            <label for="favcolor">favoriete kleur van short :</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+          </p>
+            <p>
+              <label>Biografie : <textarea name="biografie "></textarea></label>
+            </p>
+            <p>
+              <label for="myfile">Upload je laatste recept :</label>
+              <input type="file" name="recept">
+            </p>
+            <p>
+              <label>Link naar je recepten website : <input type="receptenweb" name="url" /></label>   
+            </p>
+            <p>
+              <button type="submit">Versturen</button><button type="reset">Leeg maken</button>
+            </p>
+        </form>
+
+    </main>
+    <aside>
+        <p>
+            Praesent vitae arcu lectus. Maecenas nec libero id lacus accumsan elementum.
+        </p>
+    </aside>
+    <footer id="footer">
+        <p><a href="https://www.google.nl/" target="_blank">Google</a></p>
+    </footer>
+</body>
+</html>
